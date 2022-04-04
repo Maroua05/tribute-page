@@ -1,0 +1,67 @@
+body {
+  margin-top: 120px;
+  margin-right: 100px;
+  margin-bottom: 120px;
+  margin-left: 100px;
+  text-align: center;
+  background:black;
+  color: #ccc;
+  font-family: "Barlow";
+  font-size: 20px;
+  min-width: 260px;
+  max-width: 1900px;
+}
+.ada{
+  font-family: Cinzel;
+  font-size:30px;
+}
+h2 {
+  font-family: cursive;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+#title {
+  font-family: "Cinzel";
+  font-size: 50px;
+}
+#background-image {
+    align-items: center;
+
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.75) 70%,
+      rgba(0, 0, 0, 0.85) 100%,
+      rgba(66, 66, 66, 1) 100%
+    ),
+    url("https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/14628667/image/3d4e74502077dd4399756d497b167a5b");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 24px);
+  justify-content: center;
+  padding: var(--spacing-3);
+  text-align: center;
+}
+#image {
+  transition: all 0.3s ease-in-out;
+  max-width: 37%;
+  height: auto;
+  border-radius: 99%;
+  display: block;
+  margin: auto;
+}
+#img-caption {
+  font-size: 25px;
+  color: #ccc;
+  font-family:cursive;
+}
+.mm{
+  font-size:25px;
+  font-family:cursive;
+     }
+h3{
+  font-family:Cinzel;
+  font-size:40px;
+}
